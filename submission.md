@@ -34,8 +34,10 @@ Description of what this file does.
 
 ### Task 3
 
-* Files for this task: 
-<!--  List of file or files here  --> 
+* Files for this task:
+1. task_3.ipynb
+2. wedge_summary.db
+
 
 Loads all data into GBQ data set.
 

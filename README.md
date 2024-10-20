@@ -36,23 +36,37 @@ In the second task a file of owners will be generated where the file contains ev
 
 ### Task 3: Building Summary Tables
 
-The third and final task will include the production of summary files that allow questions to be answered quickly: 
-    1. How have our sales-by-day changed over the last few months? 
-    2. What is our most popular item in each department?
-    3. Which owners spend the most per month in each department?
+How sales-by-day changed over the last few months? What the most popular item in each department is? Which owners spend the most per month in each department? These among others, are significant questions that likely influencing business decisions. Therefore it is important to build a relational database with data that can be used to answer those questions. 
 
-In order to answer these questions, we will build summary text files that hold the data and populate a relational database with the data. 
-
-Input: Process your owner records in GBQ to build the summary tables.
-
-Output: For this task, you will build a single SQLite database via Python (in a .db file) containing three tables:
-    1. Sales by date by hour: By calendar date (YYYY-MM-DD) and hour of the day, determine the total spend in the store, the number of transactions, and a count of the number of items[1].
+For this task, owner records were processed in Google Big Query in order to build summary tables that output the following along with a submitted python code:
+Output: A single SQLite database via Python (in a .db file) containing three tables:
+    1. Sales by date by hour: By calendar date (YYYY-MM-DD) and hour of the day, determine the total spend in the store, the number of transactions, and a count of the number of items.
     2. Sales by owner by year by month: A file that has the following columns: card_no, year, month, sales, transactions, and items.
     3. Sales by product description by year by month: A file that has the following columns: upc, description, department number, department name, year, month, sales, transactions, and items.
 
-You will submit your Python code that builds the database.
+![How have sales been over the past few months?](assets/sales_by_day.png)
 
-We can identify the number of items by looking for trans_status of ‘’ or ‘ ‘ (blank string or a single space). To be completely correct you would want to remove Returns (R) and Voids (V) as well. I’ll give you a query that helps with this.
+
+![Most Popular Items in Each Department](assets/most_pop_items.png)
+
+
+![Top Spending Owners per Month](assets/top_spend_owners_month.png)
+
+
+Working through this task, and then validating the database afterwards truly provided me with feelings of creating something truly useful, and it was really awesome. 
+
+![alt text](assets/its_alive.png)
+
+
+
+
+
+
+
+
+
+
+
 
 ####################################################################################
 
@@ -124,3 +138,4 @@ We can identify the number of items by looking for trans_status of ‘’ or ‘
 
 ## Appendix 2: Department Lookups
 
+![alt text](assets/readme_dept_lookups.png)
