@@ -58,18 +58,6 @@ Working through this task, and then validating the database afterwards truly pro
 ![Its Alive](assets/itsalive.png)
 
 
-
-
-
-
-
-
-
-
-
-
-####################################################################################
-
 ## Appendix 1: Wedge Transaction Data Columns
 1. datetime: timestamp of the transaction-row creation
 2. register_no: register for transaction
