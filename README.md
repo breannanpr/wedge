@@ -55,7 +55,7 @@ Output: A single SQLite database via Python (in a .db file) containing three tab
 
 Working through this task, and then validating the database afterwards truly provided me with feelings of creating something truly useful, and it was really awesome. 
 
-![alt text](assets/its_alive.png)
+![Its Alive](assets/its_alive.png)
 
 
 
