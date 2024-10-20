@@ -34,6 +34,8 @@ In the second task a file of owners will be generated where the file contains ev
     3. Takes a sample of the owners
     4. Extracts all records associated with the owners and writes them to a local text file. 
 
+
+
 ### Task 3: Building Summary Tables
 
 How sales-by-day changed over the last few months? What the most popular item in each department is? Which owners spend the most per month in each department? These among others, are significant questions that likely influencing business decisions. Therefore it is important to build a relational database with data that can be used to answer those questions. 
