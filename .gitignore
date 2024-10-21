@@ -165,3 +165,4 @@ data/*
 #.idea/
 wedge_summary.db
 *.db
+sampled_owner_transactions.csv
